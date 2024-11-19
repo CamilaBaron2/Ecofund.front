@@ -1,0 +1,35 @@
+  /* src/Auth/Login.css */
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Asegúrate de tener esta fuente importada */
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    overflow: hidden; /* Evita que se muestre scroll si no es necesario */
+  }
+  
+  .user-container {
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../public/images/nature.jpg') no-repeat center center fixed; /* Cambia a la ruta de tu imagen */
+    background-size: cover; /* Asegúrate de que la imagen cubra toda el área */
+    position: relative; /* Asegura que los elementos hijos se posicionen correctamente */
+    
+  }
+  
+  .form-wrapper {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1; /* Asegura que el formulario esté por encima de la imagen de fondo */
+    width: 100%; /* Asegura que el contenedor del formulario ocupe el 100% del ancho */
+    max-width: 400px; /* Limita el ancho máximo del formulario para hacerlo más bonito */
+  }
+  
+  .logo {
+    width: 100px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Espacio entre el logo y el título */
+  }
+  

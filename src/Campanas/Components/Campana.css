@@ -1,0 +1,63 @@
+.campana-home {
+  background-image: url('../../../public/images/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  width: 100%;  /* Asegura que ocupe todo el ancho disponible */
+  max-width: 1200px; /* Establece el máximo ancho */
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.btn-agregar {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  position: fixed; /* Fija el botón en la parte superior derecha */
+  top: 80px; /* Ajusta según sea necesario */
+  right: 20px;
+  z-index: 10; /* Asegura que el botón esté encima de otros elementos */
+}
+
+
+.btn-agregar:hover {
+  background-color: #45a049;
+}
+
+/* Layout principal */
+.main-content {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  width: 100%;
+  max-width: 1200px; /* Asegura que no crezca más allá de 1200px */
+  margin: 0 auto; /* Centra el contenido */
+}
+
+
+.left-column, .right-column {
+  flex: 0 1 50%; /* Establece que ambas columnas tengan un ancho máximo del 50% */
+}
+
+/* Estilos para la columna izquierda (tarjetas de campañas) */
+.left-column {
+  flex: 0 1 60%; /* 60% del ancho para la columna izquierda */
+}
+
+.right-column {
+  flex: 0 1 40%; /* 40% del ancho para la columna derecha */
+}
+

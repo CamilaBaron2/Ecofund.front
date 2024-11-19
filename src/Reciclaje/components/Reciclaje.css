@@ -1,0 +1,81 @@
+/* src/components/Reciclaje.css */
+
+.reciclaje-home {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn-agregar {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .right-column {
+    flex: 2;
+    padding: 10px;
+    height: 500px; /* Ajusta según el tamaño del mapa */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 1500px; /* Ajusta según el tamaño que quieras para el mapa */
+    padding: 50px;
+  }
+  
+  .map-markers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .marker {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .marker-popup {
+    position: absolute;
+    top: -20px;
+    left: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+  }
+  
